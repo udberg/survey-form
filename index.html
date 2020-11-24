@@ -1,0 +1,110 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title"> <span>Survey</span> Form</h1>
+<p id="description"> Let Us Know How we can Improve FreeCode Camp</p>
+<div class=wrapper animated bounceInLeft>
+  <form id="survey-form">
+    <div class=info>
+    <label class="labels" id="name-label"><i class="fa fa-road"></i>Name</label>
+    <div class="inputs">
+      <input id="name" type="text" name="name" placeholder="Enter Your Name" required>
+    </div>
+    <label class="labels" id="email-label">Email</label>
+    <div class="inputs">
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+    </div>
+
+    <label class="labels" id="number-label">Age</label>
+    <div class="inputs">
+      <input id="number"  required min="12" max="100" type="number" placeholder="Enter Your Age">
+    </div>
+    </div>
+    <div class="survey">
+    <label class="labels">Which option best describes your current role?</label>
+    <div class="inputs">
+
+      <select id="dropdown" type="dropdown">
+         <option disabled selected value>Select an option</option> <option id="student">Student</option> 
+        <option id="full-job">Full Time Job</option>
+         <option id="full-learner">Full Time learner</option> 
+         <option id="not-say">Prefer Not To Say</option> 
+       
+      </select>
+    </div>
+    <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+    <ul>
+      <li><input type="radio" id="definitely" name="recommend"  value="1" <input/>
+        <label>Definitely</label></li>
+      <li><input type="radio" value="2" class="inputs" id="maybe" name="recommend" </input>
+        <label>Maybe</label></li>
+<li><input class="inputs" value="3" type="radio" id="not-sure" name="recommend" />
+        <label>Not Sure</label></li>
+    </ul>
+    <div class="labels">
+      <label>What do you like most in FCC</label>
+      <select type="dropdown">
+         <option disabled selected class="inputs" value>Select an option</option>
+  <option class="inputs">Challenges</option>
+        <option class="inputs">Projects</option>
+        <option class="inputs">Open Source</option>
+        <option class="inputs">Community</option>
+        
+      </select>
+       </div>
+    <div class="labels">
+      <label>Things that should be improved in the future<br>
+(Check all that apply):</label>
+      <div class="inputs">
+        <div class="check"
+       <input type="checkbox" value="1">
+        <label>Front-End-Projects</label>
+        </input>
+      <input type="checkbox" value="2" >
+        <label>Back-End-Projects</label>
+        </input>
+    <input type="checkbox" value="3" >
+        <label class="inputs">Videos</label>
+        </input>
+        <input type="checkbox" value="4" >
+        <label class="inputs">Data-Visualisation</label>
+        </input>
+        <input type="checkbox" value="5" >
+        <label class="inputs">Open-Source-Community</label>
+        </input>
+        <input type="checkbox" 
+               value="6" >
+        <label class="inputs">Gitter-Help-Rooms</label>
+        </input>
+<input type="checkbox" value="7"  >
+        <label class="inputs">City-Meetups</label>
+        </input>
+        <input type="checkbox" value="8" expected >
+        <label class="inputs">Forum</label>
+        </input>
+        <input type="checkbox" value="9" >
+        <label class="inputs">Additional Courses</label>
+        </input>
+ <input type="checkbox" value="10"  >
+        <label class="inputs">wiki</label>
+        </input>
+<input type="checkbox" value="11"  >
+        <label class="inputs">Challenges</label>
+</input>
+</ul>
+</div>
+<div class="labels">
+  <label>Any Comments or Suggestions?</label>
+</div>
+<div class="inputs">
+  <textarea placeholder="Enter Your Comment Here...."></textarea>
+</div>
+      </div>
+    </div>
+
+  <button type="submit" id="submit">Submit</button>
+
+  </form>
+</div>
+</div>
+</div>
+
